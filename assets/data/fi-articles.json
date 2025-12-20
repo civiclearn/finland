@@ -1,0 +1,140 @@
+{
+  "A": {
+    "code": "A",
+    "title": "Foundations of the Finnish State",
+    "hub": "foundations-finnish-state",
+    "articles": [
+      "how-finland-became-independent-1917",
+      "finland-constitution",
+      "finland-parliament",
+      "finland-government",
+      "finland-president",
+      "finland-separation-of-powers",
+      "finland-rule-of-law"
+    ]
+  },
+
+  "B": {
+    "code": "B",
+    "title": "Democracy & Political Participation",
+    "hub": "finland-democracy-political-participation",
+    "articles": [
+      "finland-voting-elections",
+      "finland-political-parties",
+      "finland-parliamentary-elections",
+      "finland-presidential-elections",
+      "finland-municipal-elections",
+      "finland-european-parliament-elections",
+      "finland-citizens-initiatives-referendums",
+      "finland-freedom-expression-political-participation"
+    ]
+  },
+
+  "C": {
+    "code": "C",
+    "title": "Rights, Freedoms, and Duties",
+    "hub": "finland-rights-freedoms-duties",
+    "articles": [
+      "finland-fundamental-rights-freedoms",
+      "finland-equality-non-discrimination",
+      "finland-freedom-religion-belief",
+      "finland-freedom-speech-media",
+      "finland-right-to-education",
+      "finland-right-to-social-security",
+      "finland-civic-duties-residents-citizens"
+    ]
+  },
+
+  "D": {
+    "code": "D",
+    "title": "Justice, Law, and Public Order",
+    "hub": "justice-law-public-order-finland",
+    "articles": [
+      "finland-legal-system",
+      "courts-and-judges-finland",
+      "finland-police-public-safety",
+      "finland-crime-punishment-rehabilitation",
+      "finland-ombudsman-chancellor-justice"
+    ]
+  },
+
+  "E": {
+    "code": "E",
+    "title": "Society, Welfare, and Everyday Life",
+    "hub": "society-welfare-everyday-life-finland",
+    "articles": [
+      "finland-welfare-state",
+      "finland-education-system",
+      "finland-work-employment-labour-rights",
+      "finland-trade-unions-employers",
+      "finland-family-children-social-support",
+      "finland-housing-local-services"
+    ]
+  },
+
+  "F": {
+    "code": "F",
+    "title": "Language, Culture, and Identity",
+    "hub": "language-culture-identity-finland",
+    "articles": [
+      "official-languages-finland",
+      "sami-people-indigenous-rights",
+      "national-symbols-finland",
+      "finnish-customs-social-norms",
+      "equality-women-men-finland",
+      "freedom-culture-arts-finland"
+    ]
+  },
+
+  "G": {
+    "code": "G",
+    "title": "Finland in the World",
+    "hub": "finland-in-the-world",
+    "articles": [
+      "finland-european-union",
+      "finland-foreign-policy-principles",
+      "finland-international-organisations",
+      "finland-international-treaties"
+    ]
+  },
+
+  "H": {
+    "code": "H",
+    "title": "Economy, Environment, and Infrastructure",
+    "hub": "economy-environment-infrastructure-finland",
+    "articles": [
+      "finnish-economy-basic-structure",
+      "taxation-finland",
+      "public-finances-state-budget",
+      "environmental-protection-sustainability",
+      "energy-natural-resources-finland",
+      "transport-infrastructure-finland"
+    ]
+  },
+
+  "I": {
+    "code": "I",
+    "title": "History Beyond Independence",
+    "hub": "history-beyond-independence",
+    "articles": [
+      "finland-under-swedish-rule",
+      "finland-grand-duchy-russia",
+      "finnish-civil-war-1918",
+      "finland-second-world-war",
+      "post-war-finland-neutrality",
+      "finland-european-union"
+    ]
+  },
+
+  "J": {
+    "code": "J",
+    "title": "Living in Finland as a Resident or Citizen",
+    "hub": "living-in-finland",
+    "articles": [
+      "permanent-residence-integration",
+      "citizenship-rights-responsibilities",
+      "participation-finnish-society",
+      "what-it-means-to-be-a-finnish-citizen"
+    ]
+  }
+}

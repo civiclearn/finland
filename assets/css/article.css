@@ -1,0 +1,371 @@
+/* =========================
+   ROOT VARIABLES
+========================= */
+:root {
+  --bg-main: #f7f9f8;
+  --bg-article: #ffffff;
+
+  --text-main: #1f2933;
+  --text-muted: #5b6773;
+
+  --accent: #0f766e;
+  --accent-soft: #e6f2f1;
+  --border-soft: #e5e7eb;
+
+  --radius: 12px;
+
+  --page-width: 1200px;
+  --content-width: 820px;
+}
+
+/* =========================
+   BASE
+========================= */
+body {
+  margin: 0;
+  background: var(--bg-main);
+  color: var(--text-main);
+  font-family: "Lexend", system-ui, sans-serif;
+  line-height: 1.7;
+}
+
+/* =========================
+   HEADER
+========================= */
+.site-header {
+  background: #fff;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.header-inner {
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  gap: 12px;
+  text-decoration: none;
+  color: var(--text-main);
+}
+
+.brand-flag {
+  width: 26px;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.brand-name {
+  font-weight: 600;
+}
+
+.brand-project {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.main-nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: var(--text-muted);
+}
+
+.main-nav a:hover {
+  color: var(--accent);
+}
+
+/* =========================
+   LAYOUT
+========================= */
+.article-layout {
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 260px;
+  gap: 48px;
+}
+
+/* =========================
+   ARTICLE
+========================= */
+.civic-article {
+  background: var(--bg-article);
+  padding: 48px 32px 0;   /* ← adds breathing room */
+}
+
+.article-header {
+  max-width: var(--content-width);
+  margin-bottom: 56px;
+}
+
+.article-kicker {
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+
+.article-title {
+  font-size: 2.3rem;
+  line-height: 1.25;
+  margin-bottom: 18px;
+}
+
+.article-intro {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  max-width: 720px;
+}
+
+/* =========================
+   SECTIONS (PURE FLOW)
+========================= */
+.article-section {
+  max-width: var(--content-width);
+  margin: 56px 0;
+}
+
+.article-section h2 {
+  font-size: 1.55rem;
+  margin-bottom: 16px;
+}
+
+.article-section p {
+  margin-bottom: 18px;
+}
+
+/* =========================
+   CONTEXT BOXES (MEANINGFUL)
+========================= */
+.context-box {
+  background: var(--accent-soft);
+  border-left: 4px solid var(--accent);
+  padding: 18px 20px;
+  margin: 28px 0;
+  border-radius: var(--radius);
+}
+
+/* =========================
+   INLINE MCQ (NOT A CARD)
+========================= */
+.inline-mcq {
+  margin: 28px 0;
+}
+
+.inline-mcq .mcq-question {
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.inline-mcq .mcq-option {
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  border: 1px solid var(--border-soft);
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.inline-mcq .mcq-option.correct {
+  background: #e9f6f3;
+  border-color: var(--accent);
+}
+
+.inline-mcq .mcq-option.wrong {
+  background: #fdecec;
+  border-color: #d14343;
+}
+
+/* =========================
+   EMPHASIS SECTIONS
+========================= */
+.article-why {
+  background: #f0f6f5;
+  padding: 32px;
+  border-radius: var(--radius);
+}
+
+.article-selfcheck {
+  padding: 32px;
+  border-top: 1px solid var(--border-soft);
+}
+
+/* =========================
+   SIDEBAR (STUDY COMPANION)
+========================= */
+.article-sidebar {
+  padding-top: 64px;
+  font-size: 0.9rem;
+  position: sticky;
+  top: 96px;
+  align-self: start;
+}
+
+.sidebar-block {
+  margin-bottom: 32px;
+}
+
+.sidebar-block strong {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.sidebar-outline,
+.sidebar-facts {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-outline li {
+  margin-bottom: 8px;
+}
+
+.sidebar-outline a {
+  text-decoration: none;
+  color: var(--text-muted);
+}
+
+.sidebar-outline a:hover {
+  color: var(--accent);
+}
+
+.sidebar-languages .sidebar-lang-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-languages .sidebar-lang-list li {
+  margin: 6px 0;
+}
+
+.sidebar-languages .sidebar-lang-list a {
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.sidebar-related-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-related-list li {
+  margin: 6px 0;
+}
+
+.sidebar-related-list a {
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+.site-footer {
+  background: #f2f6f5;
+  margin-top: 80px;
+  border-top: 1px solid var(--border-soft);
+}
+
+.footer-inner {
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: 48px 20px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 48px;
+}
+
+.footer-col strong {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.footer-col p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.footer-col a {
+  display: block;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.footer-col a:hover {
+  color: var(--accent);
+}
+
+
+.site-footer .footer-disclaimer {
+  font-size: 0.7rem;
+  line-height: 1.4;
+  color: var(--text-muted);
+  opacity: 0.7;
+  margin-top: 14px;
+}
+
+.site-footer .sidebar-counter { /* guard against footer bleed */
+}
+
+.article-sidebar .sidebar-counter {
+  background: #0f766e;
+  color: #ffffff;
+  padding: 14px 16px;
+  border-radius: 12px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.mcq-feedback {
+  margin-top: 16px;
+  padding: 12px 16px;
+  background: #eef5ff;           /* civic blue */
+  color: #1f3a5f;
+  font-size: 0.85rem;
+  border-radius: 8px;
+}
+
+.inline-mcq,
+.selfcheck-mcq-group .inline-mcq {
+  padding-bottom: 24px;
+  margin-bottom: 32px;
+  border-bottom: 1px dashed var(--border-soft);
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 960px) {
+  .article-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .article-sidebar {
+    position: static;
+    margin-top: 48px;
+    border-top: 1px solid var(--border-soft);
+    padding-top: 32px;
+  }
+}
