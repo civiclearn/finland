@@ -17,6 +17,33 @@
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap">
   <link rel="stylesheet" href="/assets/css/home.css">
+
+  <style>
+    /* ── CTA commercial block ── */
+    .home-cta-commercial {
+      background: linear-gradient(135deg, #efe8ff 0%, #dcc9ff 100%);
+      border-radius: 1.2rem;
+      padding: 2.5rem 2rem;
+      margin: 2rem auto;
+      max-width: 860px;
+    }
+    .cta-commercial-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .cta-commercial-text { flex: 1; min-width: 260px; }
+    .cta-commercial-text h2 { font-size: 1.4rem; margin: 0 0 0.6rem; color: #1a1a1a; }
+    .cta-commercial-text p  { font-size: 0.95rem; color: #3b1f6b; line-height: 1.6; margin: 0 0 0.5rem; }
+    .cta-commercial-note    { font-size: 0.82rem !important; color: #666 !important; font-style: italic; }
+    .cta-commercial-btn     { white-space: nowrap; flex-shrink: 0; }
+    @media (max-width: 600px) {
+      .cta-commercial-inner { flex-direction: column; align-items: flex-start; }
+      .cta-commercial-btn   { width: 100%; text-align: center; }
+    }
+  </style>
 </head>
 
 <body>
@@ -76,9 +103,10 @@
     </p>
 
     <p>
-      The preparation of the test is ongoing.
-      Further details are expected to be communicated by the authorities
-      once the implementation phase progresses.
+      The law is now enacted. The official study material and detailed test format are still
+      being finalised by Migri and will be published ahead of January 2027. The topic areas
+      confirmed in the legislative drafting materials are already well-documented and form
+      the basis of the study content on this site.
     </p>
   </section>
 
@@ -88,8 +116,8 @@
   <h2>Using this site to prepare</h2>
 
   <p>
-    Although the detailed format of the Finnish citizenship test has not yet been
-    published, the areas of knowledge it draws from are well established.
+    Although the official study material and exact test format are still to be published by Migri,
+    the areas of knowledge the test draws from are well established and confirmed by law.
     They are based on Finnish law, democratic institutions, civic practice,
     and the principles governing everyday life in Finland.
   </p>
@@ -217,8 +245,8 @@
 
   <p class="timeline-intro">
     The Finnish citizenship test is part of a multi-phase reform of the Citizenship Act.
-    While several legislative changes are already in force, the test itself has not yet
-    been introduced. The timeline below summarises what is publicly known so far.
+    The law introducing the test was signed by President Stubb on 16 June 2026 and enters
+    into force on 1 January 2027. The timeline below summarises the full legislative history.
   </p>
 
   <div class="timeline">
@@ -274,15 +302,42 @@
       </div>
     </div>
 
+    <div class="timeline-item done">
+      <div class="timeline-marker"></div>
+      <div class="timeline-content">
+        <div class="timeline-date">16 April 2026</div>
+        <div class="timeline-title">Government bill submitted to Parliament</div>
+        <div class="timeline-text">
+          The Ministry of the Interior submitted the bill amending the Nationality Act to
+          introduce a citizenship test. Parliamentary hearings were held in spring 2026.
+          Parliament adopted the law on 10 June 2026.
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-item done">
+      <div class="timeline-marker"></div>
+      <div class="timeline-content">
+        <div class="timeline-date">16 June 2026</div>
+        <div class="timeline-title">Law signed by the President</div>
+        <div class="timeline-text">
+          President Alexander Stubb confirmed the Nationality Act amendments. The
+          citizenship test becomes a mandatory requirement for applicants aged 18–64
+          from 1 January 2027. Those with a Finnish matriculation exam or a higher
+          education degree from a Finnish institution are exempt.
+        </div>
+      </div>
+    </div>
+
     <div class="timeline-item upcoming">
       <div class="timeline-marker"></div>
       <div class="timeline-content">
-        <div class="timeline-date">Expected: 2026</div>
-        <div class="timeline-title">Planned introduction of the citizenship test</div>
+        <div class="timeline-date">1 January 2027</div>
+        <div class="timeline-title">Citizenship test enters into force</div>
         <div class="timeline-text">
-          Based on public government communications, the citizenship test is expected to be
-          introduced in a later phase of the reform. No official entry-into-force date or
-          final test format has been published yet.
+          All citizenship applications submitted from this date are subject to the test
+          requirement. The official study material, test format and registration procedure
+          are being finalised by Migri and will be published ahead of this date.
         </div>
       </div>
     </div>
@@ -291,11 +346,33 @@
 
   <p class="timeline-note">
     This timeline reflects publicly available information from Finnish authorities and
-    media reporting. Details may change as the legislative process continues.
+    media reporting. Last updated June 2026.
   </p>
 
 </section>
 
+
+
+<!-- CTA TO KANSALAISUUSKOE.COM -->
+<section class="home-block home-cta-commercial">
+  <div class="cta-commercial-inner">
+    <div class="cta-commercial-text">
+      <h2>Want structured practice questions?</h2>
+      <p>
+        KansalaisuusKoe.com offers 800 practice questions across all 5 confirmed topic areas,
+        with explanations in Finnish, Swedish and English — plus full exam simulations.
+        One-time payment, lifetime access.
+      </p>
+      <p class="cta-commercial-note">
+        The official test is not yet available. These are independent preparation materials
+        based on the confirmed topic areas.
+      </p>
+    </div>
+    <a href="https://kansalaisuuskoe.com/" class="primary-btn cta-commercial-btn" target="_blank" rel="noopener">
+      Go to KansalaisuusKoe.com →
+    </a>
+  </div>
+</section>
 
 </main>
 
