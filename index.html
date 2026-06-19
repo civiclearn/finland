@@ -43,6 +43,31 @@
       .cta-commercial-inner { flex-direction: column; align-items: flex-start; }
       .cta-commercial-btn   { width: 100%; text-align: center; }
     }
+
+    /* ── Hero button row ── */
+    .hero-btn-row {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .secondary-btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      border: 2px solid #5b21b6;
+      color: #5b21b6;
+      background: transparent;
+      transition: background 0.15s, color 0.15s;
+    }
+    .secondary-btn:hover {
+      background: #5b21b6;
+      color: #fff;
+    }
   </style>
 </head>
 
@@ -79,9 +104,14 @@
       the areas of knowledge relevant to citizenship and integration requirements.
     </p>
 
-    <a href="#study-topics" class="primary-btn">
-      Browse study topics
-    </a>
+    <div class="hero-btn-row">
+      <a href="#study-topics" class="primary-btn">
+        Browse study topics
+      </a>
+      <a href="https://kansalaisuuskoe.com/" class="secondary-btn" target="_blank" rel="noopener">
+        Practice questions →
+      </a>
+    </div>
   </section>
 
   <!-- WHAT IS KNOWN -->
